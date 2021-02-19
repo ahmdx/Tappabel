@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'Tappabel_Example' do
+  pod 'Tappabel', :path => '../'
+
+  target 'Tappabel_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
